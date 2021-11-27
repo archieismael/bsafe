@@ -54,7 +54,7 @@ pipeline{
 
 		stage('Test Run Application from Docker Container') {
 			steps {
-				sh 'sleep 10'	
+				sh 'sleep 240'	
 		                sh 'curl -i http://3.82.104.147:8082/bsafe/'
 			}
 		}
